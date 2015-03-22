@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.platform         = :osx
+  spec.platform         = :osx,'10.9'
   spec.name             = 'evernote-sdk-mac'
   spec.version          = '1.0.0'
   spec.license          = 'APACHE' 
