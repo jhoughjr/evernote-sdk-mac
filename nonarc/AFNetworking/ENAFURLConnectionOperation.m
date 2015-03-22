@@ -22,9 +22,7 @@
 
 #import "ENAFURLConnectionOperation.h"
 
-#if __IPHONE_OS_VERSION_MIN_REQUIRED
-    #import <UIKit/UIKit.h>
-#endif
+
 
 #if !__has_feature(objc_arc)
 #error AFNetworking must be built with ARC.
