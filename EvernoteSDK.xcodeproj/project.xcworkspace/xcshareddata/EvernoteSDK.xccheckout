@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D9C679EB-3D05-4249-854A-05C06E5E230A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EvernoteSDK</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C2704770743D122646B3013D61962510236CF2BB</key>
+		<string>https://github.com/jhoughjr/evernote-sdk-mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EvernoteSDK.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C2704770743D122646B3013D61962510236CF2BB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jhoughjr/evernote-sdk-mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C2704770743D122646B3013D61962510236CF2BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2704770743D122646B3013D61962510236CF2BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>evernote-sdk-mac</string>
+		</dict>
+	</array>
+</dict>
+</plist>
