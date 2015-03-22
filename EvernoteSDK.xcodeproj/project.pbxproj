@@ -77,7 +77,6 @@
 		7455375C1ABED54000B0013D /* EvernoteNoteStore+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 745536801ABED54000B0013D /* EvernoteNoteStore+Extras.m */; };
 		7455375E1ABED54000B0013D /* EvernoteNoteStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 745536811ABED54000B0013D /* EvernoteNoteStore.h */; };
 		745537601ABED54000B0013D /* EvernoteNoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 745536821ABED54000B0013D /* EvernoteNoteStore.m */; };
-		745537611ABED54000B0013D /* EvernoteSDK-Mac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 745536831ABED54000B0013D /* EvernoteSDK-Mac-Info.plist */; };
 		745537631ABED54000B0013D /* EvernoteSDK-Mac-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 745536841ABED54000B0013D /* EvernoteSDK-Mac-Prefix.pch */; };
 		745537671ABED54000B0013D /* EvernoteSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 745536861ABED54000B0013D /* EvernoteSDK.h */; };
 		745537691ABED54000B0013D /* EvernoteSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 745536871ABED54000B0013D /* EvernoteSDK.m */; };
@@ -681,7 +680,8 @@
 		0BB3D1A41524ED96001C4534 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0620;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = n/a;
 			};
 			buildConfigurationList = 0BB3D1A71524ED96001C4534 /* Build configuration list for PBXProject "EvernoteSDK" */;
@@ -708,7 +708,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				745537021ABED54000B0013D /* LICENSE in Resources */,
-				745537611ABED54000B0013D /* EvernoteSDK-Mac-Info.plist in Resources */,
 				745537B21ABED54000B0013D /* ENOAuthWindowController.xib in Resources */,
 				745536FD1ABED54000B0013D /* LICENSE.txt in Resources */,
 				745537071ABED54000B0013D /* LICENSE in Resources */,
@@ -783,12 +782,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -814,8 +816,8 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 			};
@@ -825,12 +827,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -849,7 +854,6 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -860,7 +864,6 @@
 		43741876170ADB2400D2BE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -888,7 +891,6 @@
 		43741877170ADB2400D2BE51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
